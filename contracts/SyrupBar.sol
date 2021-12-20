@@ -2,7 +2,7 @@ pragma solidity 0.6.12;
 
 import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/BEP20.sol";
 
-import "./CakeToken.sol";
+import "./AppleToken.sol";
 
 // SyrupBar with Governance.
 contract SyrupBar is BEP20('SyrupBar Token', 'SYRUP') {

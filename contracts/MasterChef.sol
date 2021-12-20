@@ -5,7 +5,7 @@ import '@pancakeswap/pancake-swap-lib/contracts/token/BEP20/IBEP20.sol';
 import '@pancakeswap/pancake-swap-lib/contracts/token/BEP20/SafeBEP20.sol';
 import '@pancakeswap/pancake-swap-lib/contracts/access/Ownable.sol';
 
-import "./CakeToken.sol";
+import "./AppleToken.sol";
 import "./SyrupBar.sol";
 
 // import "@nomiclabs/buidler/console.sol";
@@ -86,7 +86,7 @@ contract MasterChef is Ownable {
     event EmergencyWithdraw(address indexed user, uint256 indexed pid, uint256 amount);
 
     constructor(
-        CakeToken _cake,
+        AppleToken _cake,
         SyrupBar _syrup,
         address _devaddr,
         uint256 _cakePerBlock,
